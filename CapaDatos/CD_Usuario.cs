@@ -18,7 +18,7 @@ namespace CapaDatos
 
             using (SqlConnection oconexion = new SqlConnection(Conexion.cadena))
             {
-
+                //hola jorge
                 try
                 {
                     string query = "select IdUsuario,Documento,NombreCompleto,Correo,Clave,Estado from usuario";
