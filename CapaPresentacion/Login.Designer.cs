@@ -72,7 +72,7 @@
             this.btningresar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btningresar.IconColor = System.Drawing.Color.Black;
             this.btningresar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btningresar.Location = new System.Drawing.Point(383, 251);
+            this.btningresar.Location = new System.Drawing.Point(397, 251);
             this.btningresar.Name = "btningresar";
             this.btningresar.Size = new System.Drawing.Size(149, 44);
             this.btningresar.TabIndex = 2;
@@ -89,7 +89,7 @@
             this.btncancelar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btncancelar.IconColor = System.Drawing.Color.Black;
             this.btncancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btncancelar.Location = new System.Drawing.Point(556, 251);
+            this.btncancelar.Location = new System.Drawing.Point(570, 251);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(143, 44);
             this.btncancelar.TabIndex = 3;
