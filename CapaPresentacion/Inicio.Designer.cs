@@ -67,6 +67,7 @@
             // menuusuarios
             // 
             this.menuusuarios.AutoSize = false;
+            this.menuusuarios.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuusuarios.IconChar = FontAwesome.Sharp.IconChar.UserGear;
             this.menuusuarios.IconColor = System.Drawing.Color.Black;
             this.menuusuarios.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -81,6 +82,7 @@
             // menumantenedor
             // 
             this.menumantenedor.AutoSize = false;
+            this.menumantenedor.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menumantenedor.IconChar = FontAwesome.Sharp.IconChar.ScrewdriverWrench;
             this.menumantenedor.IconColor = System.Drawing.Color.Black;
             this.menumantenedor.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -94,6 +96,7 @@
             // menuventas
             // 
             this.menuventas.AutoSize = false;
+            this.menuventas.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuventas.IconChar = FontAwesome.Sharp.IconChar.Tags;
             this.menuventas.IconColor = System.Drawing.Color.Black;
             this.menuventas.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -107,6 +110,7 @@
             // menucompras
             // 
             this.menucompras.AutoSize = false;
+            this.menucompras.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menucompras.IconChar = FontAwesome.Sharp.IconChar.DollyFlatbed;
             this.menucompras.IconColor = System.Drawing.Color.Black;
             this.menucompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -120,6 +124,7 @@
             // menuclientes
             // 
             this.menuclientes.AutoSize = false;
+            this.menuclientes.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuclientes.IconChar = FontAwesome.Sharp.IconChar.UserGroup;
             this.menuclientes.IconColor = System.Drawing.Color.Black;
             this.menuclientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -133,6 +138,7 @@
             // menuproveedores
             // 
             this.menuproveedores.AutoSize = false;
+            this.menuproveedores.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold);
             this.menuproveedores.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
             this.menuproveedores.IconColor = System.Drawing.Color.Black;
             this.menuproveedores.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -146,6 +152,7 @@
             // menureportes
             // 
             this.menureportes.AutoSize = false;
+            this.menureportes.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold);
             this.menureportes.IconChar = FontAwesome.Sharp.IconChar.ChartBar;
             this.menureportes.IconColor = System.Drawing.Color.Black;
             this.menureportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -159,6 +166,7 @@
             // menuacercade
             // 
             this.menuacercade.AutoSize = false;
+            this.menuacercade.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold);
             this.menuacercade.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
             this.menuacercade.IconColor = System.Drawing.Color.Black;
             this.menuacercade.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -185,13 +193,14 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(23, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(270, 44);
+            this.label1.Size = new System.Drawing.Size(281, 45);
             this.label1.TabIndex = 2;
             this.label1.Text = "Sistema Ventas";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // fileSystemWatcher1
             // 

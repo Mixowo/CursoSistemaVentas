@@ -66,12 +66,13 @@
             // btningresar
             // 
             this.btningresar.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btningresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btningresar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btningresar.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btningresar.ForeColor = System.Drawing.Color.Black;
             this.btningresar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btningresar.IconColor = System.Drawing.Color.Black;
             this.btningresar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btningresar.Location = new System.Drawing.Point(383, 242);
+            this.btningresar.Location = new System.Drawing.Point(383, 251);
             this.btningresar.Name = "btningresar";
             this.btningresar.Size = new System.Drawing.Size(149, 44);
             this.btningresar.TabIndex = 2;
@@ -82,12 +83,13 @@
             // btncancelar
             // 
             this.btncancelar.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btncancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncancelar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btncancelar.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancelar.ForeColor = System.Drawing.Color.Black;
             this.btncancelar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btncancelar.IconColor = System.Drawing.Color.Black;
             this.btncancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btncancelar.Location = new System.Drawing.Point(556, 242);
+            this.btncancelar.Location = new System.Drawing.Point(556, 251);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(143, 44);
             this.btncancelar.TabIndex = 3;
@@ -98,9 +100,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(380, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 16);
+            this.label2.Size = new System.Drawing.Size(126, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "Num. Documento";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -108,9 +111,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(380, 150);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 16);
+            this.label3.Size = new System.Drawing.Size(84, 19);
             this.label3.TabIndex = 5;
             this.label3.Text = "Contraseña";
             this.label3.Click += new System.EventHandler(this.label3_Click);
